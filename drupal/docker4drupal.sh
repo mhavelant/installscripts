@@ -100,7 +100,7 @@ InstallDrupal() {
         || {
             printf "Something went wrong at the install. Stopping docker.. \n" \
             && docker-compose stop \
-            && sudo chmod g+w test-site/web/sites/default/settings.php \
+            && sudo chmod g+w web/sites/default/settings.php \
             && exit 1;
         }
 }

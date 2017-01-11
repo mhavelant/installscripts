@@ -9,6 +9,7 @@ These are just some simple scripts to make life easier.
 * Composer
 * PHP cli (with some extension required by composer, etc.)
 * Docker
+  * Make sure it runs without sudo and autostart with the system!
 * Docker-compose
 * sudo permissions
 

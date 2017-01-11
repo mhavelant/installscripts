@@ -17,12 +17,12 @@ These are just some simple scripts to make life easier.
 ### Docker4Drupal
 #### Note: I only tested with the 'yes' argument, this might not work for existing code. Yet.
 To install a new Drupal 8 project (drupal-composer) under the docker4drupal environment:  
-1. Copy the contents of the "drupal" folder to your "projects" folder
-    1. E.g. /var/www
-1. Add execute permissions to the main script file
-    1. sudo chmod +x docker4drupal.sh
-1. Start the script
-    1. bash docker4drupal.sh <newProject: yes/no> <siteName: a string without whitespaces>
+* Copy the contents of the "drupal" folder to your "projects" folder
+  * E.g. /var/www
+* Add execute permissions to the main script file
+  * sudo chmod +x docker4drupal.sh
+* Start the script
+  * bash docker4drupal.sh <newProject: yes/no> <siteName: a string without whitespaces>
 
 If the newProject argument is 'yes', the script will 
 * try to create a new folder named siteName (if it doesn't exist already)

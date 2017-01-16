@@ -89,7 +89,7 @@ StartDockerContainers() {
     printf "Starting docker containers.. \n"
     docker-compose up -d && docker-compose ps
     # Wait the mariadb container to start properly..
-    sleep 6s
+    sleep 15s
 }
 
 InstallDrupal() {
